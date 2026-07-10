@@ -1,0 +1,12 @@
+# Ignore all text files by default (protects your real My_Clippings.txt)
+*.txt
+
+# Ignore logs
+log.txt
+
+# Ignore the script's output directory
+books/
+
+# --- EXCEPTIONS ---
+# Do NOT ignore the test file so anyone cloning the repo can test the script immediately
+!test_clippings.txt
